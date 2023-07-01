@@ -1,0 +1,7 @@
+version: 'version'
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/app:rw
+    tty: true
